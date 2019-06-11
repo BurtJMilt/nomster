@@ -69,5 +69,5 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
 
-gem 'jquery-rails'
-gem 'will_paginate', '>3.0'
+gem 'simple_form'
+
