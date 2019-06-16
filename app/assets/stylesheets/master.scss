@@ -1,4 +1,6 @@
 @import "bootstrap";
+@import "font-awesome";
+
 
 
 .booyah-box {
@@ -37,6 +39,14 @@ body {
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
   	font-weight: 600;
   	letter-spacing: -0.3px;
+}
+
+.invalid-feedback {
+	color: #ff3333;
+	background-color: #FFEEEE;
+	border-radius: 3px;
+	padding: 2px 8px 2px 8px;
+	
 }
 
 
