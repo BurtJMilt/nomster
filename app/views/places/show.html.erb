@@ -6,8 +6,7 @@
 	
       
     
-  	</head>
-  	<body>
+  	
     <div id="map"></div>
 
     <% if @place.latitude.present? && @place.longitude.present? %>
@@ -38,9 +37,9 @@
   </script>
 
  
-  </script>
+  
 
-</script>
+
 
 <div id="map"></div>
 
@@ -66,7 +65,7 @@
 <div class="clear"></div>
 
 <%=simple_form_for @comment, url: place_comments_path(@place) do |f| %>
-	V%= f.input :message %>
+	<%= f.input :message %>
 	<%= f.input :rating %>
 	<%= f.submit "Add a Comment", class: 'btn btn-primary' %>
 <% end %>
