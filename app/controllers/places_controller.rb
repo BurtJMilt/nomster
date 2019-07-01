@@ -64,7 +64,7 @@ class PlacesController < ApplicationController
 
 end
 
-  end
+  
 
 
   private
